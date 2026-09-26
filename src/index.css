@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* Leaflet dark theme tweaks & overrides */
+.leaflet-container {
+  background-color: #0b0f17 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  outline: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #111827 !important;
+  color: #f3f4f6 !important;
+  border: 1px solid #374151 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #111827 !important;
+  border: 1px solid #374151 !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: #1f2937 !important;
+  color: #e5e7eb !important;
+  border-color: #374151 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #374151 !important;
+  color: #ffffff !important;
+}
+
+/* Pulsing radar hotspot marker animation */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.25;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.hotspot-pulse-severe {
+  animation: radar-pulse 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+.hotspot-pulse-critical {
+  animation: radar-pulse 1.4s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AirWatch AI — Delhi-NCR Pollution Hotspot Detection & Accountability",
+  "description": "Environmental intelligence and pollution accountability platform for Delhi-NCR: Detect hotspots, predict & attribute probable sources, generate complaints, and track lifecycle resolution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
