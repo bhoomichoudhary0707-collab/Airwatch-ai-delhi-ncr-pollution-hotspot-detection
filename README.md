@@ -4,8 +4,6 @@
 
 > Don't just see pollution. Understand it. Respond to it. Track what happens next.
 
-Built for **Build with AI: Code for Communities (2nd Edition)** — hack2skill × Google — Track: *Pollution Hotspot Detection*.
-
 ---
 
 ## 🔗 Links
@@ -14,7 +12,6 @@ Built for **Build with AI: Code for Communities (2nd Edition)** — hack2skill �
 |---|---|
 | 🌐 Live Prototype | [airwatch-ai-delhi-ncr-pollution-hotspot-detection.ai.studio](https://airwatch-ai-delhi-ncr-pollution-hotspot-detection.ai.studio) |
 
-| 🏆 Hackathon | [Code for Communities — hack2skill](https://hack2skill.com/event/codeforcommunities2) |
 
 ## 🎥 Demo Video
 
@@ -132,10 +129,3 @@ Source attribution is always expressed as a **probable cause with a confidence s
 - [ ] Add real wind/meteorological data feed
 - [ ] Formal complaint submission pathway (with authority partnership)
 
-## Team
-
-**Team AirWatch AI** — Build with AI: Code for Communities, 2nd Edition
-
----
-
-*Built with Google AI Studio for the "Clean Air & Climate Resilience — Pollution Hotspot Detection" track.*
