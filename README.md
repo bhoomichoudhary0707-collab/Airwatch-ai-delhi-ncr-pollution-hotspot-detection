@@ -7,7 +7,7 @@
 ---
 
 ## 🔗 Links
-| | |
+| | 
 |---|---|
 | 🌐 Live Prototype | [airwatch-ai-delhi-ncr-pollution-hotspot-detection.ai.studio](https://airwatch-ai-delhi-ncr-pollution-hotspot-detection.ai.studio) |
 
